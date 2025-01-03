@@ -19,7 +19,7 @@
                 </li>
 
                 <li class="navigation__menu--item">
-                    <a href="#" class="navigation__menu--item__link">Testimonials</a>
+                    <a href="/testimonial" class="navigation__menu--item__link">Testimonials</a>
 
                 </li>
 
