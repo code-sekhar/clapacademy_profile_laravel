@@ -9,6 +9,7 @@ use App\Http\Livewire\UserLoginComponent;
 use App\Http\Livewire\UserRegisterComponent;
 use App\Http\Livewire\TestimonialComponent;
 use App\Http\Livewire\IndividualProjectComponent;
+use App\Http\Livewire\ProfileComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +31,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', HomeComponent::class);
 Route::get('/testimonial', TestimonialComponent::class);
 Route::get('/project', IndividualProjectComponent::class);
+Route::get('/profile', ProfileComponent::class);
 
 Route::get('/user-login', UserLoginComponent::class);
 Route::get('user-register', UserRegisterComponent::class);

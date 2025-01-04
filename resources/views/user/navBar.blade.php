@@ -7,8 +7,8 @@
                     <ul class="submenu sub__style" role="menu">
                         <li role="menuitem"><a href="/user-login">Login 2</a></li>
                         <li role="menuitem"><a href="/user-register">Register 2</a></li>
-                        <li role="menuitem"><a href="/project">Project 3</a></li>
-                        <li role="menuitem"><a href="/project">Project 4</a></li>
+                        <li role="menuitem"><a href="/profile">Profile View</a></li>
+                        <li role="menuitem"><a href="/project">Project</a></li>
                         <li role="menuitem"><a href="/project">Project 5</a></li>
                     </ul>
                 </li>
