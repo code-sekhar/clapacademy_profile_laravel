@@ -33,6 +33,8 @@
     <!-- all plugin css -->
     <link rel="stylesheet" href="{{asset('assets/css/plugins.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/style_update.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     @livewireStyles
@@ -262,7 +264,7 @@
     <!-- all plugin js -->
     <script src="{{asset('assets/js/plugins.min.js')}}"></script>
     <script src="{{asset('assets/js/main.js')}}"></script>
-
+    <script src="{{asset('assets/js/script.js')}}"></script>
     @livewireScripts
 </body>
 
