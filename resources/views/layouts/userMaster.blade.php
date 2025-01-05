@@ -10,9 +10,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="{{asset('assets/img/favicon-16x16.png')}}" type="image/x-icon">
-
+    <link rel="stylesheet" href="{{asset('dashboardAsset/css/dashboardStyle.css')}}">
+    <link rel="stylesheet" href="{{asset('dashboardAsset/css/responsive.css')}}">
     <title>Clap Academy - User Dashboard</title>
-
     <!-- Custom fonts for this template-->
     <link href="{{asset('user/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
     <link
@@ -22,6 +22,8 @@
     <!-- Custom styles for this template-->
     <link href="{{asset('user/css/sb-admin-2.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
+
     @livewireStyles
 </head>
 
@@ -81,7 +83,7 @@
     <!-- Page level custom scripts -->
     <script src="{{asset('user/js/demo/chart-area-demo.js')}}"></script>
     <script src="{{asset('user/js/demo/chart-pie-demo.js')}}"></script>
-
+    <script src="{{asset('dashboardAsset/js/script.js')}}"></script>
     @livewireScripts
 </body>
 </html>

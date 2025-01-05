@@ -1,6 +1,6 @@
-
     <!-- Sidebar -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- End of Sidebar -->
     @include('userDash_template.dash_siderBar')
     <!-- Content Wrapper -->
@@ -12,9 +12,8 @@
             <!-- Topbar -->
                 @include('userDash_template.dash_topBar')
             <!-- End of Topbar -->
-
             <!-- Begin Page Content -->
-                @include('userDash_template.dash_main')
+                @include('edit_profile.edit_profile')
             <!-- /.container-fluid -->
 
         </div>
@@ -26,5 +25,3 @@
 
     </div>
     <!-- End of Content Wrapper -->
-    
-

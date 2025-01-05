@@ -30,7 +30,7 @@
             <span>Data Portfolio Steps</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/user/edit-profile">
             <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
             <span>Profile</span></a>
     </li>

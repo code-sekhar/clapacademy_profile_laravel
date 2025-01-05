@@ -10,6 +10,7 @@ use App\Http\Livewire\UserRegisterComponent;
 use App\Http\Livewire\TestimonialComponent;
 use App\Http\Livewire\IndividualProjectComponent;
 use App\Http\Livewire\ProfileComponent;
+use App\Http\Livewire\User\EditProfile;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -52,6 +53,7 @@ Route::get('user-register', UserRegisterComponent::class);
 Route::middleware(['auth:sanctum','verified'])->group(function () {
     Route::get('/user/dashboard', UserDashboard::class)->name('user.dashboard');
     Route::get('/user/portfolio-steps', DataPortfolioStep::class)->name('user.portfolio-steps');
+    Route::get('/user/edit-profile', EditProfile::class)->name('user.edit-profile');
 });
 
 

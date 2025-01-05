@@ -3709,18 +3709,23 @@ input:checked + .slider:before {
 }
 .newsletter input {
     position: relative;
-    padding: 20px 18px;
+    padding: 0px;
+    padding-left: 10px;
     padding-right: 120px;
-    border-radius: 10px;
     border: 0;
     width: 100%;
+    border-radius: 8px 8px 8px 8px;
+    background: var(--White, #FFF);
+    height: 38px;
 }
 .newsletter button {
     position: absolute;
-    right: 15px;
-    padding: 10px;
-    border-radius: 6px;
-    font-size: 16px;
+    right: 0px;
+    padding: 12px 10px;
+    border-radius: 0px;
+    font-size: 14px;
+    border-radius: 0px 8px 8px 0px;
+background: var(--Primary-blue-1, #2F79E9);
 }
 .single__input {
     position: relative;

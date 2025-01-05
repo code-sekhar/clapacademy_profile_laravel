@@ -91,7 +91,7 @@
             <a href="/login" class="small__btn he-3 d-none d-sm-flex font-xs text-white"
                 aria-label="Login Button">Log In</a>
 
-            <a href="/register" class="small__btn he-4 d-none d-sm-flex fill__btn rounded-5 font-xs" aria-label="Join clap academy">Sign Up</a>
+            <a href="/register" class="small__btn he-4 d-none d-sm-flex fill__btn rounded-5 font-xs gradient_btn" aria-label="Join clap academy">Sign Up</a>
 
             <button class="d-md-block d-lg-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvas" aria-controls="offcanvas"><i
@@ -104,7 +104,7 @@
                 aria-label="Login Button" data-bs-toggle="modal" data-bs-target="#loginModal">
 
                 Sign In</a>
-            <a href="#" class="small__btn he-3 d-none d-sm-flex fill__btn border-6 font-xs"
+            <a href="#" class="small__btn he-3 d-none d-sm-flex fill__btn border-6 font-xs gradient_btn"
                 aria-label="Job Posting Button" data-bs-target="#signupModal" data-bs-toggle="modal">Sign Up</a>
             <button class="d-md-block d-lg-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvas" aria-controls="offcanvas"><i

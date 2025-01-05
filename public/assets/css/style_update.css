@@ -646,3 +646,7 @@ span.reset_switch {
 .lern_more_areas {
     text-align: center;
 }
+.gradient_btn{
+    border-radius: 50px;
+    background: linear-gradient(90deg, #0A2D62 1.17%, #155CC8 61.17%) !important;
+}

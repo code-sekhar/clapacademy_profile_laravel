@@ -58,8 +58,11 @@
 
                     <div class="text-white font-20 fw-medium mb-3 h6 ">Subscribe For Newsletter</div>
                     <p class="text-white br-sm-none">Don't miss out of our <br> unique project notifications</p>
-                    <form action="#" class="d-flex align-items-center justify-content-between mt-4 newsletter">
-                        <input type="email" name="semail" id="semail" placeholder="Enter your email" required>
+                    <div class="custom__input mt-4 mb-3">
+                    <input type="email" name="semail" class="form-control" id="semail" placeholder="Your Phone no" required>
+                    </div>
+                    <form action="#" class="d-flex align-items-center justify-content-between  newsletter">
+                        <input type="email" name="semail" id="semail" class="form-control" placeholder="Enter your email" required>
                         <button type="submit" class="rts__btn fill__btn">Subscribe</button>
                     </form>
                 </div>
