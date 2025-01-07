@@ -13,7 +13,7 @@
     <div class="row">
 
         <div class="col-lg-4 mb-4">
-            <div class="card shadow mb-4">
+            <div class="card shadow mb-4 custom_cards_sections">
                 <div class="card-body px-0">
                     <!-- Portfolio Indicator-->
                     <div class="d-flex align-items-center justify-content-between px-4">
@@ -57,7 +57,7 @@
 
 
             <!-- Approach -->
-            <div class="card shadow mb-4">
+            <div class="card shadow mb-4 custom_cards_sections">
                 <div class="text-center">
                     <img class="img-fluid px-3 px-sm-4 mt-2" style="width: 13rem;"
                         src="{{asset('user/img/undraw_posting_photo.svg')}}" alt="das_image">
@@ -79,23 +79,25 @@
         <div class="col-xl-7 col-md-6 mb-4">
             <div class="card shadow py-2">
                 <div class="card-body">
+                    <div class="card_headings">
                     <h5 class="h5 mb-0 text-gray-800">Portfolio Progress</h5>
+                    </div>
                     <div class="row dash_section2">
-                        <div class="card bg-light text-black block">
+                        <div class="card custom_card bg-light text-black block">
                             <div class="card-body h5 mb-3 font-weight-bold text-gray-800">
-                                0
+                                <h4>0</h4>
                                 <div class="text-black-50 small">Project created</div>
                             </div>
                         </div>
-                        <div class="card bg-light text-black block">
+                        <div class="card custom_card bg-light text-black block">
                             <div class="card-body h5 mb-3 font-weight-bold text-gray-800">
-                                0
+                                <h4>0</h4>
                                 <div class="text-black-50 small">Post engagements</div>
                             </div>
                         </div>
-                        <div class="card bg-light text-black block">
+                        <div class="card custom_card bg-light text-black block">
                             <div class="card-body h5 mb-3 font-weight-bold text-gray-800">
-                                0
+                                <h4>0</h4>
                                 <div class="text-black-50 small">Followers</div>
                             </div>
                         </div>

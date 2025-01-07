@@ -61,7 +61,7 @@
                                   <ul class="footer">
                                     <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">1 </button>
                                     </li>
-                                    <li class="text-dark"><strong>Add a profile photo</strong>
+                                    <li class="text-dark custom_point_heading"><strong>Add a profile photo</strong>
                                     </li>
                                   </ul>
                                 </div>
@@ -87,7 +87,7 @@
                                   <ul class="footer">
                                     <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">2 </button>
                                     </li>
-                                    <li class="text-dark"><strong>Update your bio information</strong>
+                                    <li class="text-dark custom_point_heading"><strong>Update your bio information</strong>
                                     </li>
                                   </ul>
                                 </div>
@@ -114,7 +114,7 @@
                                       <ul class="footer">
                                         <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">3 </button>
                                         </li>
-                                        <li class="text-dark"><strong>Publish your first portfolio project</strong>
+                                        <li class="text-dark custom_point_heading"><strong>Publish your first portfolio project</strong>
                                         </li>
                                       </ul>
                                     </div>
@@ -142,7 +142,7 @@
                                       <ul class="footer">
                                         <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">4 </button>
                                         </li>
-                                        <li class="text-dark"><strong>Publish 3 portfolio projects</strong>
+                                        <li class="text-dark custom_point_heading"><strong>Publish 3 portfolio projects</strong>
                                         </li>
                                       </ul>
                                     </div>
@@ -169,7 +169,7 @@
                                       <ul class="footer">
                                         <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">5 </button>
                                         </li>
-                                        <li class="text-dark"><strong>Share your first project</strong>
+                                        <li class="text-dark custom_point_heading"><strong>Share your first project</strong>
                                         </li>
                                       </ul>
                                     </div>
@@ -198,8 +198,8 @@
                                 <div class="d-flex align-items-center">
                                     <img class="rounded-5 mr-2" width="48" height="48" src="{{asset('assets/img/team/user_profile.png')}}">
                                     <div class="ms-4">
-                                        <div class="small text-dark"><b>Abel Developer</b></div>
-                                        <div class="text-xs text-muted">Customer Service Representative</div>
+                                        <div class="small text-dark author_name"><b>Abel Developer</b></div>
+                                        <div class="text-xs text-muted author_deg">Customer Service Representative</div>
                                      </div>
 
                                 </div>
@@ -292,7 +292,7 @@
                                   <ul class="footer">
                                     <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">1 </button>
                                     </li>
-                                    <li class="text-dark"><strong>Follow Clap Academy on LinkedIn</strong>
+                                    <li class="text-dark custom_point_heading"><strong>Follow Clap Academy on LinkedIn</strong>
                                     </li>
                                   </ul>
                                 </div>
@@ -320,7 +320,7 @@ ensure good lighting and a professional background.
                                   <ul class="footer">
                                     <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">2 </button>
                                     </li>
-                                    <li class="text-dark"><strong>Drop your first like</strong>
+                                    <li class="text-dark custom_point_heading"><strong>Drop your first like</strong>
                                     </li>
                                   </ul>
                                 </div>
@@ -347,7 +347,7 @@ ensure good lighting and a professional background.
                                       <ul class="footer">
                                         <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">3 </button>
                                         </li>
-                                        <li class="text-dark"><strong>Comment on a project</strong>
+                                        <li class="text-dark custom_point_heading"><strong>Comment on a project</strong>
                                         </li>
                                       </ul>
                                     </div>
@@ -375,7 +375,7 @@ ensure good lighting and a professional background.
                                       <ul class="footer">
                                         <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">4 </button>
                                         </li>
-                                        <li class="text-dark"><strong>Follow another user</strong>
+                                        <li class="text-dark custom_point_heading"><strong>Follow another user</strong>
                                         </li>
                                       </ul>
                                     </div>
@@ -402,7 +402,7 @@ ensure good lighting and a professional background.
                                       <ul class="footer">
                                         <li><button class="btn btn-primary rounded-circle text-dark" type="button" style="background-color: #fff">5 </button>
                                         </li>
-                                        <li class="text-dark"><strong>Share your profile</strong>
+                                        <li class="text-dark custom_point_heading"><strong>Share your profile</strong>
                                         </li>
                                       </ul>
                                     </div>

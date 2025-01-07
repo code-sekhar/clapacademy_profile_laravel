@@ -11743,7 +11743,100 @@ a:focus {
     font-size: .75rem;
     color: rgba(255, 255, 255, .5)
 }
+.card.custom_card.bg-light.text-black.block {
+    box-shadow: 2px 2px 8px 0px #00000017;
+    display: flex;
+    width: 30%;
+    padding: 12px 22px 12px 22px;
+    justify-content: center;
+    align-items: center;
+}
+.card-body>h4 {
+    color: var(--Header-black, #202020);
+    text-align: center;
 
+/* Header 36/40 */
+    font-family: Kanit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 111.111% */
+}
+button.button_action.rounded-pill {
+    border: none;
+    color: #FFF;
+/* Desktop button text */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.dash_section2 {
+    padding: 10px 20px 10px 20px !important;
+}
+.card_headings>h5 {
+    color: var(--Header-black, #202020);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+li.text-dark.custom_point_heading strong {
+    color: var(--Header-black, #202020);
+
+/* Navbar text */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+button.btn.btn-light.rounded-pill {
+    display: flex;
+    width: auto;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 38px !important;
+    gap: 10px;
+    color: var(--Body-text, #666);
+
+    /* Desktop button text */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1; /* 150% */
+}
+button.btn.btn-primary.rounded-circle.text-dark {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 6px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid var(--Background-black, #252525) !important;
+}
+.small.text-dark.author_name {
+    color: var(--Header-black, #202020);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+.text-xs.text-muted.author_deg {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
 @media (min-width:768px) {
     .sidebar {
         width: 14rem !important

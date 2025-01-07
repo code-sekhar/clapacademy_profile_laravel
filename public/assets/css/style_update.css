@@ -650,3 +650,8 @@ span.reset_switch {
     border-radius: 50px;
     background: linear-gradient(90deg, #0A2D62 1.17%, #155CC8 61.17%) !important;
 }
+.card.custom_card{
+    border-radius: 8px;
+    background: var(--White, #FFF);
+    box-shadow: 2px 2px 8px 0px #00000017;
+}
