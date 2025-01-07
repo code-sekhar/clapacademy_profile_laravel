@@ -11837,6 +11837,28 @@ button.btn.btn-primary.rounded-circle.text-dark {
     font-weight: 700;
     line-height: 24px; /* 150% */
 }
+.author_content_wrapings {
+    padding: 0px 27px 27px;
+}
+.wraping_chart {
+    padding: 14px 0px;
+}
+.author_content_wrapings>p {
+    color: var(--Header-black, #202020);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+.top_main_headings>p {
+    color: var(--Header-black, #202020);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+}
 @media (min-width:768px) {
     .sidebar {
         width: 14rem !important

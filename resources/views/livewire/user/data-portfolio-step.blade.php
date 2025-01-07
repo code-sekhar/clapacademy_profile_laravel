@@ -28,8 +28,10 @@
                 <div class="col-xl-7 col-md-6 mb-4">
                     <div class="card shadow py-2">
                         <div class="card-body">
-
-                            <p class="h5 mb-0 text-gray-800"><strong> your data portfolio</strong></p>
+                            <div class="top_main_headings">
+                                <p class="h5 mb-0 text-gray-800"><strong> Your data portfolio</strong></p>
+                            </div>
+                            
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2 mb-5">
                                     <div class="row no-gutters align-items-center">
@@ -196,7 +198,7 @@
                             <!-- Portfolio Indicator-->
                             <div class="d-flex align-items-center justify-content-between px-4">
                                 <div class="d-flex align-items-center">
-                                    <img class="rounded-5 mr-2" width="48" height="48" src="{{asset('assets/img/team/user_profile.png')}}">
+                                    <img class="rounded-5 mr-2" width="80" height="80" src="{{asset('assets/img/team/user_profile.png')}}">
                                     <div class="ms-4">
                                         <div class="small text-dark author_name"><b>Abel Developer</b></div>
                                         <div class="text-xs text-muted author_deg">Customer Service Representative</div>
@@ -206,16 +208,21 @@
 
                             </div>
                         </div>
-                        <p class="d-inline-block text-justify" style="margin-right:15px; margin-left:15px">
+                        <div class="author_content_wrapings">
+                        <p class="d-inline-block text-justify" style="">
                             Hi Abel! Our support team is ready to help you navigate the platform and answer
                             any inquiries. Whether you're unsure about a feature, stuck on a task,
                             or need guidance, we've got you covered.</p>
 
-                            <div style="float:right; margin-left:10px">
-                                <button type="button" class="btn btn-outline-primary mb-2 text-left rounded-pill">
-                                    <i class="fa fa-comment"> Start chat</i>
+                            <div style=" margin-left:0px">
+                                <button type="button" class="btn btn-outline-primary mb-2   rounded-pill">
+                                    <i class="fa fa-comment"> </i>
+                                    <span>
+                                    Start chat
+                                    </span>
                                 </button>
                             </div>
+                        </div>
                     </div>
                     <!-- Illustrations -->
 
@@ -234,6 +241,7 @@
 
                   <div class="row px-2 template-demo justify-content-center mb-2 mt-2">
                     <div class="col-sm-3 col-md-4 col-6 circle-progress-block">
+                        <div class="wraping_chart">
                         <div id="circleProgress1" class="progressbar-js-circle">
                             <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
                                 <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#eee" stroke-width="3" fill-opacity="0"></path>
@@ -244,6 +252,7 @@
                             <strong>0%</strong> <br/>
                             <span class="small" style="font-size: 10px">Total progress</span>
                             </div>
+                        </div>
                         </div>
                     </div>
                   </div>
@@ -260,7 +269,9 @@
                     <div class="card shadow py-2">
                         <div class="card-body">
 
+                            <div class="top_main_headings">
                             <p class="h5 mb-0 text-gray-800"><strong> Connect with the Clap Academy Community</strong></p>
+                            </div>
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2 mb-5">
                                     <div class="row no-gutters align-items-center">
