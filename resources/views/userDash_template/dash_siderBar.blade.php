@@ -36,15 +36,22 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a href="/user/new-project" class="nav-link" >
             <i class="fa fa-suitcase fa-sm fa-fw mr-2 text-gray-400"></i>
             <span>My Portfolio</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/user/user-credentials">
             <i class="fa fa-suitcase fa-sm fa-fw mr-2 text-gray-400"></i>
             <span>Create Portfolio</span></a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/user/user-store-credentials">
+            <i class="fa fa-suitcase fa-sm fa-fw mr-2 text-gray-400"></i>
+            <span>User Store Credentials</span></a>
+    </li>
+
+    
     <li class="nav-item">
         <a class="nav-link" href="#">
             <i class="fa fa-snowflake fa-sm fa-fw mr-2 text-gray-400"></i>

@@ -11,6 +11,9 @@ use App\Http\Livewire\TestimonialComponent;
 use App\Http\Livewire\IndividualProjectComponent;
 use App\Http\Livewire\ProfileComponent;
 use App\Http\Livewire\User\EditProfile;
+use App\Http\Livewire\User\NewProject;
+use App\Http\Livewire\User\UserCredentials;
+use App\Http\Livewire\User\UserStoreCredentials;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -54,6 +57,9 @@ Route::middleware(['auth:sanctum','verified'])->group(function () {
     Route::get('/user/dashboard', UserDashboard::class)->name('user.dashboard');
     Route::get('/user/portfolio-steps', DataPortfolioStep::class)->name('user.portfolio-steps');
     Route::get('/user/edit-profile', EditProfile::class)->name('user.edit-profile');
+    Route::get('/user/new-project', NewProject::class)->name('user.new-project');
+    Route::get('/user/user-credentials', UserCredentials::class)->name('user.user-credentials');
+    Route::get('/user/user-store-credentials', UserStoreCredentials::class)->name('user.user-store-credentials');
 });
 
 
