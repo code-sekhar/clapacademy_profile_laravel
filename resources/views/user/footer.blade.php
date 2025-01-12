@@ -15,8 +15,8 @@
                 <!-- footer menu -->
                 <div class="text-white rts__footer__widget max-content">
 
-                    <div class="text-white font-20 fw-medium mb-3 h6">Links</div>
-                    <ul class="list-unstyled">
+                    <div class=" footer_title text-white font-20 fw-medium mb-3 h6">Links</div>
+                    <ul class="list-unstyled footer_menu_list">
                         <li><a href="#" aria-label="footer__menu__link">Browse Projects</a></li>
                         <li><a href="#" aria-label="footer__menu__link">Blog & News</a></li>
                         <li><a href="#" aria-label="footer__menu__link">Testimonies</a></li>
@@ -39,7 +39,7 @@
 
                 <!-- newsletter form -->
                 <div class="rts__footer__widget max-320">
-                    <div class="text-white font-20 fw-medium mb-20">Social Link</div>
+                    <div class="footer_title text-white font-20 fw-medium mb-20">Social Link</div>
                     <div class="rts__social d-flex gap-4 mb-30">
                         <a target="_blank" href="https://facebook.com/" aria-label="facebook">
                             <i class="fa-brands fa-facebook text-white"></i>
@@ -56,7 +56,7 @@
                         </a>
                     </div>
 
-                    <div class="text-white font-20 fw-medium mb-3 h6 ">Subscribe For Newsletter</div>
+                    <!-- <div class="text-white font-20 fw-medium mb-3 h6 ">Subscribe For Newsletter</div> -->
                     <p class="text-white br-sm-none">Don't miss out of our <br> unique project notifications</p>
                     <div class="custom__input mt-4 mb-3">
                     <input type="email" name="semail" class="form-control" id="semail" placeholder="Your Phone no" required>
@@ -74,7 +74,7 @@
     <hr class="new1">
     <div class="rts__copyright text-white">
         <div class="container">
-            <p class="text-center fw-medium py-4 ">
+            <p class="text-left fw-medium py-4 ">
                 Copyright &copy; 2024 All Rights Reserved by Clap Academy
             </p>
         </div>

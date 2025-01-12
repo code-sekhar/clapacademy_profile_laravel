@@ -6,7 +6,7 @@
             <div
                 class="rts__banner__wrapper d-flex flex-wrap flex-lg-nowrap gap-5 justify-content-between align-items-center">
                 <div class="rts__banner__content max-750">
-                    <h3 class="rts__banner__title wow animated fadeInUp ">
+                    <h3 class="rts__banner__title  custom_titles wow animated fadeInUp ">
                         Your &nbsp Data, Your &nbsp Story, Your &nbsp Impact
                     </h3>
                     <p class="rts__banner__desc my-40 br-lg-none  wow animated fadeInUp">
@@ -23,7 +23,7 @@
                     <figure class="banner__image">
                         <img src="{{ asset('assets/img/home-3/banner/man2.png') }}" alt="banner">
                     </figure>
-                    <div class="banner__image__shape">
+                    <!-- <div class="banner__image__shape">
                         <div class="facebook">
                             <i class="fab fa-linkedin"></i>
                         </div>
@@ -33,8 +33,8 @@
                         <div class="linkedin">
                             <i class="fab fa-linkedin-in"></i>
                         </div>
-                    </div>
-                    <div class="current__job d-flex gap-3">
+                    </div> -->
+                    <!-- <div class="current__job d-flex gap-3">
                         <div class="rts__icon">
                             <img src="{{ asset('assets/img/icon/job.svg') }}" alt="">
                         </div>
@@ -42,7 +42,7 @@
                             <span class="h5 mb-0">100+</span>
                             <span>Online New Job</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

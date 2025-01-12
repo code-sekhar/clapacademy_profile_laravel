@@ -44,7 +44,7 @@
                         <h1 class="fw-light my-4 h4 mb-4 text-white"><strong>LOGIN</strong></h1>
                     </div>
 
-                    <div class="card-body">
+                    <div class="card-body custom_logins">
                         <!-- Login form-->
                         <a href="#" class="btn btn-google google_button btn-user btn-block rounded-pill mb-3 bg-gradient-primary">
                             <i class="fab fa-google fa-fw"></i> Login with Google
@@ -58,12 +58,12 @@
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
                             <!-- Form Group (email address)-->
-                            <div class="mb-3">
+                            <div class="mb-3 custom_input_fields">
                                 <label class="small mb-1 text-white" for="inputEmailAddress">Email</label>
                                 <input class="form-control" type="email" name="email" id="email" placeholder="Enter email address" autofocus>
                             </div>
                             <!-- Form Group (password)-->
-                            <div class="mb-3">
+                            <div class="mb-3 custom_input_fields">
                                 <label class="small mb-1 text-white" for="inputPassword">Password</label>
                                 <input class="form-control" type="password" name="password" id="password" placeholder="Enter password" autocomplete="current-password">
                             </div>
