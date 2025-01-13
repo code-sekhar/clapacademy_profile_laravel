@@ -12951,6 +12951,14 @@ body.sidebar-toggled footer.sticky-footer {
     .row.no-gutters.align-items-center {
         flex-direction: column;
     }
+    .col.indicator_bar {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    
+    .card.shadow.mb-4.custom_cards_sections .row.no-gutters.align-items-center {
+        flex-direction: row !important;
+    }
 }
 
 .px-0 {
