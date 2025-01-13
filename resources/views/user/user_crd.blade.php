@@ -206,7 +206,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-xl-9 col-md-8 col-12">
-                    <div class="content">
+                    <div class="content user_scores">
                         <!---------------------------project row wrapers---------------------------->
                         <!-- Portfolio Strength: -->
                          <div class="projects">

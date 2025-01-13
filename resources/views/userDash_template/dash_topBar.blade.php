@@ -8,7 +8,7 @@
 
     <!-- Topbar Search -->
 
-    <h1 class="h3 mb-0 text-gray-800 mr-3 hidden_onMobile">Dashboard</h1> hello, <b> &nbsp; Abel</b>
+    <h1 class="h3 mb-0 text-gray-800 mr-3 hidden_onMobile">Dashboard</h1> hello, <b> Abel</b>
 
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto">

@@ -103,7 +103,7 @@
                         </div>
                     </div>
                     <br/>
-                    <div class="text-center ml-5 mr-5 mt-20">
+                    <div class="text-center ml-5 mr-5 mt-20 dash_cont_text">
                         <p class="h5 mb-0 font-weight-bold text-gray-800">You'll see your progress here when you upload projects</p>
                         <p class="mb-0">Start uploading your project and let the world follow your work</p>
                         <br/>

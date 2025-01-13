@@ -27,7 +27,7 @@
                 <!-- Creating project steps -->
                 <div class="col-xl-7 col-md-6 mb-4">
                     <div class="card shadow py-2">
-                        <div class="card-body">
+                        <div class="card-body custom_dash_cards_section">
                             <div class="top_main_headings">
                                 <p class="h5 mb-0 text-gray-800"><strong> Your data portfolio</strong></p>
                             </div>
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
 
-                            <div style="float:right">
+                            <div style="float:right"  class="user_bio_btns">
                                 <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Edit profile</button>
                             </div>
 
@@ -80,7 +80,7 @@
 
                             <br/>
 
-                            <div style="float:right">
+                            <div style="float:right"  class="user_bio_btns">
                                 <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Edit profile</button>
                             </div>
 
@@ -107,7 +107,7 @@
 
                                 <br/>
 
-                                <div style="float:right">
+                                <div style="float:right"  class="user_bio_btns">
                                     <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Create project</button>
                                 </div>
 
@@ -135,7 +135,7 @@
 
                                     <br/>
 
-                                <div style="float:right">
+                                <div style="float:right"  class="user_bio_btns">
                                     <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">View your projects</button>
                                 </div>
 
@@ -162,7 +162,7 @@
 
                                     <br/>
 
-                                <div style="float:right">
+                                <div style="float:right"  class="user_bio_btns">
                                     <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Share projects</button>
                                 </div>
 
@@ -194,7 +194,7 @@
 
                 <div class="col-lg-4 mb-4">
                     <div class="card shadow mb-4">
-                        <div class="card-body px-0">
+                        <div class="card-body px-0 custom_dash_cards_section">
                             <!-- Portfolio Indicator-->
                             <div class="d-flex align-items-center justify-content-between px-4">
                                 <div class="d-flex align-items-center">
@@ -267,7 +267,7 @@
                 <div class="col-xl-7 col-md-6 mb-4">
                     <br/>
                     <div class="card shadow py-2">
-                        <div class="card-body">
+                        <div class="card-body custom_dash_cards_section">
 
                             <div class="top_main_headings">
                             <p class="h5 mb-0 text-gray-800"><strong> Connect with the Clap Academy Community</strong></p>
@@ -294,7 +294,7 @@
                                 </div>
                             </div>
 
-                            <div style="float:right">
+                            <div style="float:right"  class="user_bio_btns">
                                 <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Edit profile</button>
                             </div>
 
@@ -322,7 +322,7 @@ ensure good lighting and a professional background.
 
                             <br/>
 
-                            <div style="float:right">
+                            <div style="float:right" class="user_bio_btns">
                                 <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Edit profile</button>
                             </div>
 
@@ -349,7 +349,7 @@ ensure good lighting and a professional background.
 
                                 <br/>
 
-                                <div style="float:right">
+                                <div style="float:right"  class="user_bio_btns">
                                     <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Create project</button>
                                 </div>
 
@@ -377,7 +377,7 @@ ensure good lighting and a professional background.
 
                                     <br/>
 
-                                <div style="float:right">
+                                <div style="float:right"  class="user_bio_btns">
                                     <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">View your projects</button>
                                 </div>
 
@@ -404,7 +404,7 @@ ensure good lighting and a professional background.
 
                                     <br/>
 
-                                <div style="float:right">
+                                <div style="float:right"  class="user_bio_btns">
                                     <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Share projects</button>
                                 </div>
 
