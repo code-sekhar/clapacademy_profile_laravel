@@ -43,7 +43,7 @@
                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
-                                        <div style="display: flex; justify-content: space-between;">
+                                        <div style="display: flex; justify-content: space-between;" class="custom_full_width_100">
                                             <p style="margin-right:5em;"><strong>0%</strong></p>
                                         <span class="mr-5" style="margin-right:5em;"> 5 steps left </span>
                                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
@@ -75,8 +75,10 @@
                                    </ul>
                                  </div> --}}
                                </div>
-                               <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">Add a profile photo to personalize your portfolio. Use a clear, high-resolution image, center yourself in the frame and
+                               <div class="content_port_wrape">
+                               <p class=" mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">Add a profile photo to personalize your portfolio. Use a clear, high-resolution image, center yourself in the frame and
                                 ensure good lighting and a professional background.</p>
+                                </div>
 
                             <br/>
 
@@ -101,9 +103,11 @@
                                    </ul>
                                  </div> --}}
                                </div>
-                               <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
+                               <div class="content_port_wrape">
+                               <p class=" mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                 Showcase your personality, education, employment and unique journey through your bio. It’s the perfect way to introduce yourself to clients and employers.
                                 </p>
+                               </div>
 
                                 <br/>
 
@@ -128,11 +132,12 @@
                                        </ul>
                                      </div> --}}
                                    </div>
-                                   <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
+                                   <div class="content_port_wrape">
+                                   <p class=" mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                     Publish your first project and showcase your creativity and skills to the public. Your portfolio is your stage, make it count!
                                     </p>
 
-
+                                    </div>
                                     <br/>
 
                                 <div style="float:right"  class="user_bio_btns">
@@ -156,10 +161,11 @@
                                        </ul>
                                      </div> --}}
                                    </div>
-                                   <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
+                                   <div class="content_port_wrape">
+                                   <p class=" mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                         Your portfolio grows stronger with variety. Publishing at least three projects demonstrates your versatility, expertise, and creativity to potential clients and employers.
                                     </p>
-
+                                    </div>
                                     <br/>
 
                                 <div style="float:right"  class="user_bio_btns">
@@ -183,9 +189,11 @@
                                        </ul>
                                      </div> --}}
                                    </div>
-                                   <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
+                                   <div class="content_port_wrape">
+                                   <p class="mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                     You've published your first project—now let the world see it! Sharing your work increases your visibility and connects you with opportunities.
                                     </p>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -193,6 +201,42 @@
 
 
                 <div class="col-lg-4 mb-4">
+                   
+
+
+                    <!-- Approach -->
+                    <div class="card shadow mb-4 skill_prg_round">
+                        <div class="text-center">
+                            <div class="row d-flex justify-content-center">
+
+
+
+                            </div>
+                        </div>
+
+
+
+                      <div class="row px-2 template-demo justify-content-center mb-2 mt-2">
+                        <div class="col-sm-3 col-md-4 col-6 circle-progress-block">
+                            <div class="wraping_chart">
+                            <div id="circleProgress1" class="progressbar-js-circle">
+                                <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#eee" stroke-width="3" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="" stroke-width="3" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 199.079;">
+                                    </path>
+                                </svg>
+                            <div class="progressbar-text text-center" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">
+                                <strong>0%</strong> <br/>
+                                <span class="small" style="font-size: 10px">Total progress</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                    <!-----------------bottom _author------------------->
                     <div class="card shadow mb-4">
                         <div class="card-body px-0 custom_dash_cards_section">
                             <!-- Portfolio Indicator-->
@@ -215,7 +259,7 @@
                             or need guidance, we've got you covered.</p>
 
                             <div style=" margin-left:0px">
-                                <button type="button" class="btn btn-outline-primary mb-2   rounded-pill">
+                                <button type="button" class="btn btn-outline-primary   rounded-pill">
                                     <i class="fa fa-comment"> </i>
                                     <span>
                                     Start chat
@@ -225,41 +269,6 @@
                         </div>
                     </div>
                     <!-- Illustrations -->
-
-
-                    <!-- Approach -->
-                    <div class="card shadow mb-4">
-                        <div class="text-center">
-                            <div class="row d-flex justify-content-center">
-
-
-
-                            </div>
-                        </div>
-
-
-
-                  <div class="row px-2 template-demo justify-content-center mb-2 mt-2">
-                    <div class="col-sm-3 col-md-4 col-6 circle-progress-block">
-                        <div class="wraping_chart">
-                        <div id="circleProgress1" class="progressbar-js-circle">
-                            <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-                                <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#eee" stroke-width="3" fill-opacity="0"></path>
-                                <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="" stroke-width="3" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 199.079;">
-                                </path>
-                            </svg>
-                        <div class="progressbar-text text-center" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">
-                            <strong>0%</strong> <br/>
-                            <span class="small" style="font-size: 10px">Total progress</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                  </div>
-
-
-                    </div>
-
                 </div>
 
                 <br/>
@@ -283,7 +292,7 @@
                                                     aria-valuemax="100"></div>
                                             </div>
                                         </div>
-                                        <div style="display: flex; justify-content: space-between;">
+                                        <div style="display: flex; justify-content: space-between;"  class="custom_full_width_100">
                                             <p style="margin-right:5em;"><strong>0%</strong></p>
                                         <span class="mr-5" style="margin-right:5em;"> 5 steps left </span>
                                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
@@ -315,11 +324,12 @@
                                    </ul>
                                  </div> --}}
                                </div>
+                               <div class="content_port_wrape">
                                <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                 Add a profile photo to personalize your portfolio. Use a clear, high-resolution image, center yourself in the frame and
 ensure good lighting and a professional background.
                                </p>
-
+</div>
                             <br/>
 
                             <div style="float:right" class="user_bio_btns">
@@ -343,10 +353,11 @@ ensure good lighting and a professional background.
                                    </ul>
                                  </div> --}}
                                </div>
+                               <div class="content_port_wrape">
                                <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                 Showcase your personality, education, employment and unique journey through your bio. It’s the perfect way to introduce yourself to clients and employers.
                                 </p>
-
+</div>
                                 <br/>
 
                                 <div style="float:right"  class="user_bio_btns">
@@ -370,10 +381,11 @@ ensure good lighting and a professional background.
                                        </ul>
                                      </div> --}}
                                    </div>
+                                   <div class="content_port_wrape">
                                    <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                     Publish your first project and showcase your creativity and skills to the public. Your portfolio is your stage, make it count!
                                     </p>
-
+</div>
 
                                     <br/>
 
@@ -398,10 +410,11 @@ ensure good lighting and a professional background.
                                        </ul>
                                      </div> --}}
                                    </div>
+                                   <div class="content_port_wrape">
                                    <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                         Your portfolio grows stronger with variety. Publishing at least three projects demonstrates your versatility, expertise, and creativity to potential clients and employers.
                                     </p>
-
+</div>
                                     <br/>
 
                                 <div style="float:right"  class="user_bio_btns">
@@ -425,9 +438,11 @@ ensure good lighting and a professional background.
                                        </ul>
                                      </div> --}}
                                    </div>
+                                   <div class="content_port_wrape">
                                    <p class="mb-5 mr-10" style="margin-left: 65px; margin-right:300px justify-content: center">
                                     You've published your first project—now let the world see it! Sharing your work increases your visibility and connects you with opportunities.
                                     </p>
+                                    </div>
                         </div>
                     </div>
                 </div>

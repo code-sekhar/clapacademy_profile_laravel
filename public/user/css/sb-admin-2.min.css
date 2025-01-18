@@ -12850,7 +12850,19 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
     width: 100%
 }
+.content_port_wrape {
+    width: 80%;
+}
+.content_port_wrape>p {
+    margin-bottom: 0px;
+}
+.card.skill_prg_round {
+    border-radius: 0px 0px 16px 16px;
+    background: var(--White, #FFF);
 
+/* Drop Shadow/200 */
+    box-shadow: 1px 1px 11px 2px #0000001c;
+}
 @media only screen and (max-width: 400px) {
     .hidden_onMobile {
       display: none;
@@ -12959,6 +12971,18 @@ body.sidebar-toggled footer.sticky-footer {
     .card.shadow.mb-4.custom_cards_sections .row.no-gutters.align-items-center {
         flex-direction: row !important;
     }
+    .content_port_wrape {
+        width: 100%;
+    }
+    .content_port_wrape>p {
+        margin-bottom: 0px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .custom_full_width_100{
+        width: 100% !important;
+    }
+
 }
 
 .px-0 {
