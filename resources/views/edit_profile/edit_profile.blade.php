@@ -130,7 +130,7 @@
                                     <div class="profile_image_controller d-flex align-items-center gap-3 justify-content-between">
                                         <div class="combo mb-4 d-flex align-items-center gap-2">
                                             <div class="profile_images">
-                                                <img src="./dashboardAsset/images/profile_pics.png" alt="" srcset="">
+                                                <img src="{{asset('dashboardAsset/images/profile_pics.png')}}" alt="" srcset="">
                                             </div>
                                             <div class="profile_image_content">
                                                 <h4>My Profile</h4>
