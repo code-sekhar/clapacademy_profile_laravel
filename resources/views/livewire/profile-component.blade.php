@@ -77,6 +77,19 @@
                         </div>
                         <div class="faq_item">
                             <div class="faq_heading">
+                                <h4>Work Experience </h4>
+                                <span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                            </div>
+                            <div class="faq_content">
+                                <p>
+                                    Text goes here
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq_item">
+                            <div class="faq_heading">
                                 <h4>Additional links </h4>
                                 <span>
                                     <i class="fa-solid fa-angle-down"></i>
