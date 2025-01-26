@@ -323,9 +323,11 @@ span.reset_switch {
     text-align: center;
     position: relative;
     z-index: 9;
-    background: #fff;
+    background: #f9f9f9;
 }
-
+.user_activity_sections>ul>li{
+    cursor: pointer;
+}
 .ceo_section::after {
     content: '';
     position: absolute;
@@ -655,3 +657,6 @@ span.reset_switch {
     background: var(--White, #FFF);
     box-shadow: 2px 2px 8px 0px #00000017;
 }
+.project_wrapers.box_grid .project_content>h4{
+    line-height: 28px !important;
+   }

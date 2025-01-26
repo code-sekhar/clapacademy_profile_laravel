@@ -58,3 +58,36 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+  document.addEventListener('DOMContentLoaded', () => {
+    const listButton = document.querySelector('.list_buttons');
+    const gridButton = document.querySelector('.grid_buttons');
+    const boxList = document.querySelector('.box_list');
+    const boxGrid = document.querySelector('.box_grid');
+
+    if (!listButton || !gridButton || !boxList || !boxGrid) {
+        console.error('One or more elements could not be found. Please check your HTML selectors.');
+        return;
+    }
+
+    // Ensure the List view is shown by default
+    boxList.style.display = 'block';
+    boxGrid.style.display = 'none';
+    listButton.classList.add('active_btns');
+    gridButton.classList.remove('active_btns');
+
+    // Function to switch to List view
+    listButton.addEventListener('click', () => {
+        listButton.classList.add('active_btns');
+        gridButton.classList.remove('active_btns');
+        boxList.style.display = 'block';
+        boxGrid.style.display = 'none';
+    });
+
+    // Function to switch to Grid view
+    gridButton.addEventListener('click', () => {
+        gridButton.classList.add('active_btns');
+        listButton.classList.remove('active_btns');
+        boxGrid.style.display = 'block';
+        boxList.style.display = 'none';
+    });
+});

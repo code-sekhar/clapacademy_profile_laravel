@@ -25,7 +25,7 @@
 
 
                 <!-- Creating project steps -->
-                <div class="col-xl-7 col-md-6 mb-4">
+                <div class="col-xl-8 col-md-12 col-12 mb-4">
                     <div class="card shadow py-2">
                         <div class="card-body custom_dash_cards_section">
                             <div class="top_main_headings">
@@ -169,7 +169,13 @@
                                     <br/>
 
                                 <div style="float:right"  class="user_bio_btns">
-                                    <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Share projects</button>
+                                    <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">
+                                      <span>
+                                                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                      <path d="M21.0002 11.4606L11.4002 5.10156L11.4002 8.70156C3 10.5016 3 18.9016 3 18.9016C3 18.9016 6.6 14.1016 11.4002 14.7016L11.4002 18.4216L21.0002 11.4606Z" stroke="#666666" stroke-width="2" stroke-linejoin="round"/>
+                                    </svg>
+                                      </span>
+                                    Share projects</button>
                                 </div>
 
                                 <div class="footer-container">
@@ -227,7 +233,7 @@
                                 </svg>
                             <div class="progressbar-text text-center" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">
                                 <strong>0%</strong> <br/>
-                                <span class="small" style="font-size: 10px">Total progress</span>
+                                <span class="small_total_prg" >Total progress</span>
                                 </div>
                             </div>
                             </div>
@@ -273,7 +279,7 @@
 
                 <br/>
                 {{-- connecting to community --}}
-                <div class="col-xl-7 col-md-6 mb-4">
+                <div class="col-xl-8 col-md-12 col-12 mb-4">
                     <br/>
                     <div class="card shadow py-2">
                         <div class="card-body custom_dash_cards_section">
@@ -418,7 +424,13 @@ ensure good lighting and a professional background.
                                     <br/>
 
                                 <div style="float:right"  class="user_bio_btns">
-                                    <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">Share projects</button>
+                                    <button type="button" class="btn btn-light rounded-pill" style="background-color: #eee">
+                                      <span>
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                          <path d="M21.0002 11.4606L11.4002 5.10156L11.4002 8.70156C3 10.5016 3 18.9016 3 18.9016C3 18.9016 6.6 14.1016 11.4002 14.7016L11.4002 18.4216L21.0002 11.4606Z" stroke="#666666" stroke-width="2" stroke-linejoin="round"/>
+                                        </svg>
+                                      </span>
+                                    Share projects</button>
                                 </div>
 
                                 <div class="footer-container">

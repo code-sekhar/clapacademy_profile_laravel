@@ -683,3 +683,7 @@ ul.list-unstyled.footer_menu_lis>li::after {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.project_wrapers.box_grid .project_content>h4{
+    line-height: auto !important;
+   }

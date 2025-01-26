@@ -47,4 +47,7 @@
         font-weight: 600;
         line-height: 24px;
     }
+    .project_wrapers.box_grid .project_content>h4 {
+        line-height: 1 !important;
+    }
 }
