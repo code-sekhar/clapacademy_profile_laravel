@@ -25,12 +25,14 @@
                              </div>
 
                         </div>
-                        <div class="col-auto">
+                        <div class="col-auto-padding">
+                            <a href="http://" class="status_previews">
                             <i class="" aria-hidden="true">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16" fill="none">
-  <path d="M13.8347 0.917969L20.9163 7.99964L13.8347 15.0813M1.08301 7.99964H20.718" stroke="#292D32" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-                            </i>
+                                <path d="M13.8347 0.917969L20.9163 7.99964L13.8347 15.0813M1.08301 7.99964H20.718" stroke="#292D32" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                </i>
+                            </a>
 
                         </div>
                         {{--Two Item same line
@@ -80,11 +82,13 @@
                     <p class="gt_desc">
                     Begin by following these easy steps. </p>
                     </div>
+                    <a href="http://" class="status_previews">
                     <i class="" aria-hidden="true" style="float: right">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16" fill="none">
   <path d="M13.8347 0.917969L20.9163 7.99964L13.8347 15.0813M1.08301 7.99964H20.718" stroke="#292D32" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
                     </i>
+                    </a>
                     </div>
                  </div>
 

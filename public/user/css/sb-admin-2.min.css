@@ -12932,6 +12932,21 @@ margin-bottom: 10px;
     font-weight: 600;
     line-height: 24px;
 }
+a.status_previews {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+a.status_previews:hover {
+    background: linear-gradient(90deg, #0A2D62 1.17%, #155CC8 61.17%) !important;
+}
+a.status_previews:hover i>svg>path {
+    stroke: #fff !important;
+}
 @media only screen and (max-width: 400px) {
     .hidden_onMobile {
       display: none;
